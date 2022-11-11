@@ -9,6 +9,7 @@ public class Exercici3 {
         calcDistancia(p1, p2);
     }
 
+    //La formula matematica l'he agafada d'internet
     private static void calcDistancia(int[] p1, int[] p2) {
         double distancia = Math.sqrt((p2[1] - p2[0]) * (p2[1] - p2[0]) + (p1[1] - p1[0]) * (p1[1] - p1[0]));
         System.out.println("Distancia entre els dos punts: " + distancia);
